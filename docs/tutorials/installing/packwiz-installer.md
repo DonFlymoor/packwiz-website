@@ -16,8 +16,8 @@ To distribute the modpack as a MultiMC instance:
     This is the same folder as options.txt - MultiMC will call it `.minecraft` or `minecraft` depending on your system.
 
 3. Go to Edit Instance -> Settings -> Custom commands, then check the Custom Commands box and paste the following command into the pre-launch command field:
-    - `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://[your-server]/pack.toml`
-      (where `https://[your-server]/pack.toml` is the HTTP URL your `pack.toml` file is hosted at)
+    - `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar http://[your-server]/pack.toml`
+      (where `http://[your-server]/pack.toml` is the HTTP URL your `pack.toml` file is hosted at)
 4. Use the Export Instance function to export your pack as a `.zip` file (which can be distributed similarly to your pack via a web hosting service)
 
 To install your pack, users just need to add it with Add instance -> Import from zip - then packwiz-installer does the rest, keeping it up to date every time the game is launched!
